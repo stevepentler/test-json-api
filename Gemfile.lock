@@ -1,0 +1,81 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.6)
+      activesupport (= 4.2.6)
+      builder (~> 3.1)
+    activerecord (4.2.6)
+      activemodel (= 4.2.6)
+      activesupport (= 4.2.6)
+      arel (~> 6.0)
+    activesupport (4.2.6)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    arel (6.0.3)
+    bcrypt (3.1.10)
+    builder (3.2.2)
+    coderay (1.1.1)
+    concurrent-ruby (1.0.2)
+    concurrent-ruby-ext (1.0.2)
+      concurrent-ruby (~> 1.0.2)
+    enumerable_observer (1.0.0)
+      unstrict_proc
+    faker (1.6.3)
+      i18n (~> 0.5)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    i18n (0.7.0)
+    json (1.8.3)
+    jsonapionify (0.11.10)
+      activesupport (~> 4.2)
+      concurrent-ruby (~> 1.0.1)
+      concurrent-ruby-ext
+      enumerable_observer
+      faker
+      faraday (~> 0.9)
+      mime-types
+      oj
+      possessive
+      rack
+      rack-test
+      redcarpet
+      unstrict_proc
+    method_source (0.8.2)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    minitest (5.9.0)
+    multipart-post (2.0.0)
+    oj (2.16.1)
+    possessive (1.0.1)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    redcarpet (3.3.4)
+    slop (3.6.0)
+    sqlite3 (1.3.11)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    unstrict_proc (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  activesupport
+  bcrypt
+  jsonapionify
+  pry
+  sqlite3
+
+BUNDLED WITH
+   1.12.5
